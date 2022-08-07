@@ -1,0 +1,443 @@
+
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #eb5850;
+}
+
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
+
+.center-image {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.center-image img {
+    margin: auto;
+}
+
+/* .zuri-logo-img {
+    margin-top: 69px;
+    margin-left: 100px;
+    margin-bottom: 143px;
+  
+} */
+
+.top-container {
+    height: 800px;
+    background-image: url("images/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.learn-buid-grow-section{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.learn-buid-grow-section h2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.learn-buid-grow-section p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+   
+    
+}
+
+.industry-btn{
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.industry-btn:hover {
+    background-color: #fff;
+    color: #E7332B;
+    cursor: pointer;
+}
+
+.experience-btn{
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    background-color: #fff;
+    color: #E7332B;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.experience-btn:hover {
+    background-color: #E7332B;
+    color: #fff;
+    cursor: pointer;
+}
+
+section.programs {
+    background-color: #fff;
+    overflow: hidden;
+}
+ 
+.program-content {
+    padding-top: 0;
+}
+
+
+.program-content p.slogan {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+
+}
+
+.middle-container{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+    
+}
+.heading{
+    font-size: small;
+    font: inherit;
+}
+
+.program-card {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    width: 100%;    
+    text-align: left;
+}
+.program-card h3{
+    padding-top: 8px;
+    font-size: 16px; 
+    font-weight: bold;
+    line-height: 24px;
+    font: inherit;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+.zed-content,.talent-area,.intenship-area,.talent-area{
+    background-color: #FFFAFA;
+    padding: 61px 47px 72px 36px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.program-card-zed {
+    position: relative;
+    z-index: 1;
+}
+
+img.card-bg-svg-1 {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.program-card img {
+    margin-bottom: 48px;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    font: Averta, sans-serif;
+}
+
+
+.footer {
+    margin-top: 215px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
+.zuri-footer-logo img{
+  padding-top: 20px;
+}
+
+.contact-icons img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright {
+   text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}
+
+@media (max-width: 768px) {
+
+    .top-container{
+        height: auto;
+    }
+
+ 
+
+}
+
+/* STYLES FOR INDUSTRY BELOW */
+.industry-body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* styling for the header section starts here */
+#header-img{
+    width: 250px;
+    margin-top: 1.2rem;
+  
+}
+
+.enroll-btn{
+    font-size: 0.9rem;
+    border: hidden;
+    border-radius: 4.4375rem;
+    padding: 8px 30px;
+    background-color: #E7332B;
+    color: #fff;
+    margin-top: 1rem;
+    position: relative;   
+    margin-left: 4rem;
+    
+   
+}
+
+.thumb{
+    position: absolute;
+    right: 165px;
+    width: 44px;
+    background-color: #E7332B;
+    border: hidden;
+    border-radius: 100%;
+    outline: 8px solid #E7332B; 
+    z-index: 1;
+    margin-top: 0.9rem;
+   
+     
+}
+
+.top-header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 5.9rem;
+    margin-top: 2.5px;
+    margin-left: 40px;
+    margin-bottom: 5rem;
+}
+
+.header-div-links{
+    display: inline-flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    font-weight: normal;
+    font-size: 0.9rem;
+    
+   
+}
+
+.right-header-link {
+    padding: 0.25rem 0.5rem;
+    margin-top: 1.4rem;
+  
+}
+.header-div-links a{
+    color: #000;
+}
+
+/* styling for the header section ends here */
+
+/* styling for the Gain knowledge section starts here */
+
+.first-section{
+    display: flex;
+    height: auto;
+    
+}
+
+#lady-image{
+    width: 23rem;
+    margin-top: 3rem;
+   padding-left: 4rem; 
+}
+.gain-knowledge-div{
+    width: 41%;
+    margin: 0 auto;
+    margin-left: -2.6rem;
+       
+    
+}
+
+.gain{
+    font-size: 2.3rem;
+    font-weight: 900;
+    text-align: center;
+    text-align-last: center;
+    margin-bottom: -0.6px;
+    line-height: 1.1;
+  
+}
+
+.male{
+    width: 15rem;
+    margin-top: 4rem;
+   margin-right: 3.5rem;
+}
+.red-letter1{
+    text-align: center;
+    color: #E7332B;
+    margin-bottom: 0.5rem;
+   
+}
+
+#line{
+    width: 7.5rem;
+    float: right;
+    margin-top: 0.4rem ;
+    margin-right: 4.5rem;
+  
+}
+.section-paragraph{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.section-enroll-btn{
+    font-size: 0.9rem;
+    border: hidden;
+    border-radius: 4.4375rem;
+    padding: 8px 30px;
+    background-color: #E7332B;
+    color: #fff;
+    margin-top: 2.3rem;
+    position: absolute;   
+    margin-left: 5.7rem;
+    top: 1;
+   
+}
+
+#male-face{
+    width: 2.5rem;
+    margin-left: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.section-wire{
+    width: 4rem;
+    padding-top: 4.4rem;
+    float: right;
+    margin-right: 7.7rem;
+}
+
+/* styling for the Gain knowledge section endss here */
+
+.line-section-separator{
+    border: 0.5px thin lightgray;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* styling for the second section starts here */
+.section-2{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.ingressive-image{
+   width: 10rem;
+   margin-right: 9.5rem;
+}
+
+
+
+/* styling for the Why Zuri Training section starts here */
+
+#section3-wire{
+
+}
